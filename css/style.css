@@ -1,21 +1,19 @@
-body h6{
-	position: absolute;
-	display: none;
-	text-indent: -9999px;
-} 
+body h6 {
+    position: absolute;
+    display: none;
+    text-indent: -9999px;
+}
 
-.main{
+.main {
 
-	background-color: black;
-	display:flex;
-
-	font-family: Ubuntu;
-	position: fixed;
-	width: 100%;
-	height: 42px;
-	z-index: 1;
-	padding-left: 0px;
-
+    background-color: black;
+    display: flex;
+    font-family: Ubuntu;
+    position: fixed;
+    width: 100%;
+    height: 42px;
+    z-index: 1;
+    padding-left: 0px;
 }
 
 .img {
@@ -24,187 +22,173 @@ body h6{
 
 
 .nav {
-	align-items: center;
-     flex: 1;
-   display: flex;
-   
-   font-family: 'Ubuntu';
-   font-size:13px;
-}
-.nav ul{
-	margin: 0px;
-}
-.hero-section{
-	background-image: url("../img/shuttle.jpg");
-	background-size: cover;
-	height: 66vh;
-	width: 100%;
-	position: absolute;
-	background-attachment: fixed;
-	top: 42px;
-
-}
-.hero-section h1{
-margin-left: 20%;
-font-family: 'Open Sans', sans-serif;
-font-size: 50px;
-color: white;
-}
-.hero-section p{
-font-size:20px;
-margin-left: 10%;
-margin-right:10%;
-color: white;
-background: rgba(50,50,50,0.2);
-
-}
-.image-container{
-	width: 100%;
-	position: absolute;
-	top:540px;
-	display: flex;
-	height: 240px;
-	justify-content: space-between;
-	margin: 0px;
+    align-items: center;
+    flex: 1;
+    display: flex;
+    font-family: 'Ubuntu';
+    font-size: 13px;
 }
 
-.icon1
- {
-
-	flex-basis: 30%;
-	height: 220px;
-	box-shadow: 0 2px 5px 0 black;
- }
-
-.image-container a{ 
-
-text-decoration:none;
-color: grey;
-font-family: 'Encode Sans Expanded';
-display: block;
-
-margin: 0px;
-padding-bottom:  1em;
-
-text-align: center;
+.nav ul {
+    margin: 0px;
 }
 
-.image-container a:hover{
-color:black;
+.hero-section {
+    background-image: url("../img/shuttle.jpg");
+    background-size: cover;
+    height: 66vh;
+    width: 100%;
+    position: absolute;
+    background-attachment: fixed;
+    top: 42px;
 }
-.icon2
- {
-	flex-basis: 30%;
-	height: 220px;
-	box-shadow: 0 2px 5px 0 black;
 
+.hero-section h1 {
+    margin-left: 20%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: white;
 }
 
-.icon3
-{
-	flex-basis: 30%;
-	height: 220px;
+.hero-section p {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    background: rgba(50, 50, 50, 0.2);
+}
+
+.image-container {
+    width: 100%;
+    position: absolute;
+    top: 540px;
+    display: flex;
+    height: 240px;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.icon1 {
+    flex-basis: 30%;
+    height: 220px;
     box-shadow: 0 2px 5px 0 black;
 }
-        
+
+.image-container a {
+    text-decoration: none;
+    color: grey;
+    font-family: 'Encode Sans Expanded';
+    display: block;
+    margin: 0px;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.image-container a:hover {
+    color: black;
+}
+
+
 .extras {
-width: 100%;
-height: 400px;
-       position: absolute;
-       top: 820px;
-	   display:flex;
-	   background-image:url("../img/extra1.jpg");
- }
- .ex1{
- flex:1;
- padding-left:15%;
- display: flex;
- flex-direction:column;
- justify-content:space-around;
-  
- }
- .ex2{
- flex:1;
- display: flex;
- flex-direction:column;
- justify-content:space-around;
- 
- }
- 
- 
-
- .extras h2{
- color: white;
- font-family: 'Encode Sans Expanded';
- }
- .x1{
- font-family: 'Encode Sans Expanded';
- min-width:200px;
- align-self:left;
- box-shadow: 0 2px 5px 0 black;
- max-height:50px;
- 
- }
- 
- .extras a{
- text-decoration:none;
- color:black;
- }
- .extras a:hover{
-  text-decoration:underline;
- color:grey;
- }
- .x1{
- flex:1;
- background: rgba(255,255,255,0.1);
-
- 
- }
- 
- 
- 
-.foot{  
-	    width: 100%;
-       position: absolute;
-       top: 1300px;
-       display: flex;
-       background: black;
-       padding: 0px;
-	   color:grey;
-
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 820px;
+    display: flex;
+    background-image: url("../img/extra1.jpg");
 }
 
-.foot1{
-      
-	flex: 1;
+.ex1 {
+    flex: 1;
+    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
+.ex2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 
 
-.foot1 li{
-	display: inline;
-    
-}
-.foot a{
-      font-family: 'Ubuntu';
-         color: grey;
+.extras h2 {
+    color: white;
+    font-family: 'Encode Sans Expanded';
 }
 
-.foot a:hover{
-	color: white;
+.x1 {
+    font-family: 'Encode Sans Expanded';
+    min-width: 200px;
+    align-self: left;
+    box-shadow: 0 2px 5px 0 black;
+    max-height: 50px;
 }
 
- 
-.foot p{
-color: white;
-font-family: 'Ubuntu';
+.extras a {
+    text-decoration: none;
+    color: black;
 }
-nav li 
-{
+
+.extras a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.x1 {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+.foot {
+    width: 100%;
+    position: absolute;
+    top: 1300px;
+    display: flex;
+    background: black;
+    padding: 0px;
+    color: grey;
+}
+
+.foot1 {
+
+    flex: 1;
+}
+
+
+
+.foot1 li {
+    display: inline;
+}
+
+.foot a {
+    font-family: 'Ubuntu';
+    color: grey;
+    text-decoration: none;
+}
+
+.fa:before {
+    content: "\f230";
+    padding: 10px;
+}
+
+.foot a:hover {
+    color: white;
+}
+
+
+.foot p {
+    color: white;
+    font-family: 'Ubuntu';
+}
+
+nav li {
     display: inline;
     padding-right: 20px;
-
 }
 
 nav a {
@@ -213,12 +197,10 @@ nav a {
 }
 
 
-nav a:hover{
-color: grey;	
+nav a:hover {
+    color: grey;
 }
 
-body{
-	margin: 0px;
+body {
+    margin: 0px;
 }
-
-
